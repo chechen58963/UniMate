@@ -1,0 +1,21 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        char C = sc.next().charAt(0);
+        int N = sc.nextInt();
+
+        if (C =='A'){
+            for(int i=1; i<=N; i++){
+                System.out.printf("%d ", i);
+            }
+        }
+        else{
+            for(int i=N; i>=1; i--){
+                System.out.printf("%d ", i);
+            }
+        }
+    }
+}
